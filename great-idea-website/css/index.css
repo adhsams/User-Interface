@@ -65,49 +65,55 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-* {
-	box-sizing: border-box;
-}
-nav {
-	margin: 30px;
+/**/
 
-}
 .top {
-	width: 17%;
-	height: 20px;
+	margin:2%;
 	text-decoration: none;
 	display: inline-block;
 }
 
-nav img.logo {
+img.logo {
 	font-size: 30px;
+	margin: 2%;
 	display: inline-block;
 }
 
-header {
-	height: 35%;
-}
-
-h1 {
+.innovations {
 	text-align: center;
 	font-size: 40px;
 	width: 49%;
-	height: 200px;
-	padding: 40px;
+	padding: 35px;
 	box-sizing: border-box;
 	display: inline-block;
+}
+
+.image2 {
+	width: 300px;
+	height: 300px;
 	
 }
 
-img.image2 {
-	width: 49%;
-	height: 200px;
-	padding: 40px;
-	box-sizing: border-box;
+hr {
+	margin: 55px;
+	width: 80%;
+}
+
+h2 {
+	width: 35%;
+	text-align: left;
 	display: inline-block;
 }
 
-hr {
-	margin: 10px;
-	width: 70%;
-}
+section.features p{
+	width: 5%;
+    display: inline-block;
+    margin: 0 3.5%;
+ }
+
+section.about p{
+	width: 5%;
+    display: inline-block;
+    margin: 0 3.5%;
+ }
+
