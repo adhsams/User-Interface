@@ -29,6 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+
 	line-height: 1;
 }
 ol, ul {
@@ -64,3 +65,83 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+/**/
+
+/*Navigation section*/
+nav {
+	margin: 0 auto;
+}
+.top {
+	margin: 0 2%;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+
+img.logo {
+	margin: 0 2.5%;
+	font-size: 30px;
+	display: inline-block;
+}
+/*Header section begins*/
+.innovations {
+	text-align: center;
+	font-size: 40px;
+	width: 49%;
+	padding: 35px;
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+.image2 {
+	width: 300px;
+	height: 300px;
+}
+/*1st line Break*/
+hr {
+	margin: 35px;
+	width: 80%;
+}
+/*First-Section class begins*/
+.middle-img {
+	margin: 5%;
+}
+
+}
+h2 {
+	text-align: left;	
+}
+
+div.features {
+	width: 49%;
+    display: inline-block;
+    
+}
+
+div.about {
+	width: 49%;
+    display: inline-block;
+    
+ }
+ div.services {
+	width: 25%;
+	display: inline-block;
+ }
+
+ div.product {
+	width: 25%;
+	display: inline-block;
+ }
+
+div.vision {
+	 width: 25%;
+	 display: inline-block;
+}	
+
+.contact {
+	padding:2px;
+	margin: 2px;
+
+
+}
+
