@@ -67,18 +67,23 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 /**/
 
+/*Navigation section*/
+nav {
+	margin: 0 auto;
+}
 .top {
-	margin:2%;
+	margin: 0 2%;
+	text-align: center;
 	text-decoration: none;
 	display: inline-block;
 }
 
 img.logo {
+	margin: 0 2.5%;
 	font-size: 30px;
-	margin: 2%;
 	display: inline-block;
 }
-
+/*Header section begins*/
 .innovations {
 	text-align: center;
 	font-size: 40px;
@@ -91,31 +96,52 @@ img.logo {
 .image2 {
 	width: 300px;
 	height: 300px;
-	
 }
-
+/*1st line Break*/
 hr {
-	margin: 55px;
+	margin: 35px;
 	width: 80%;
 }
-
-h2 {
-	width: 35%;
-	text-align: left;
-	display: inline-block;
+/*First-Section class begins*/
+.middle-img {
+	margin: 5%;
 }
 
-section.features p{
-	width: 5%;
+}
+h2 {
+	text-align: left;	
+}
+
+div.features {
+	width: 49%;
     display: inline-block;
-    margin: 0 3.5%;
+    
+}
+
+div.about {
+	width: 49%;
+    display: inline-block;
+    
+ }
+ div.services {
+	width: 25%;
+	display: inline-block;
  }
 
-section.about p{
-	width: 5%;
-    display: inline-block;
-    margin: 0 3.5%;
+ div.product {
+	width: 25%;
+	display: inline-block;
  }
 
- 
+div.vision {
+	 width: 25%;
+	 display: inline-block;
+}	
+
+.contact {
+	padding:2px;
+	margin: 2px;
+
+
+}
 
