@@ -81,24 +81,34 @@ nav {
 }
 
 img.logo {
-	padding: 12px;
+	padding: 14px;
 	justify-content: space-around;
     align-items: center;
 }
 /*End of Navigation section*/
 /*Header section begins*/
+#header {
+	display:flex;
+	flex-wrap: wrap;
+}
 .innovations {
 	text-align: center;
-	font-size: 40px;
+	font-size: 55px;
 	width: 49%;
 	padding: 35px;
 	box-sizing: border-box;
-	display: inline-block;
+	justify-content: space-around;
+	
 }
 
 .image2 {
-	width: 300px;
-	height: 300px;
+	margin: 2.5% auto;
+	justify-content: space-around;
+	align-items: center;
+}
+
+button {
+	width: 145px;
 }
 /*End of Header section*/
 /*Begins 2nd section*/
