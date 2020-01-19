@@ -66,7 +66,9 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 /**/
-
+body {
+	margin: 0 8%;
+}
 /*Navigation section*/
 nav {
 	margin: 0 auto;
@@ -93,7 +95,7 @@ img.logo {
 }
 .innovations {
 	text-align: center;
-	font-size: 55px;
+	font-size: 65px;
 	width: 49%;
 	padding: 35px;
 	box-sizing: border-box;
@@ -108,15 +110,10 @@ img.logo {
 }
 
 button {
-	width: 145px;
+	width: 135px;
 }
 /*End of Header section*/
-/*Begins 2nd section*/
-.middle-img {
-	margin: 5%;
-}
-
-}
+/*Begins 2nd section Features and About*/
 h2 {
 	text-align: left;	
 }
@@ -124,14 +121,22 @@ h2 {
 div.features {
 	width: 49%;
     display: inline-block;
-    
 }
 
 div.about {
 	width: 49%;
     display: inline-block;
-    
  }
+ /*End Second section*/
+ /*Begins 3rd section MIDDLE IMAGE*/
+ .middle-img {
+	width: 100%;
+	margin: 2.5% auto;
+	display: flex;
+	align-items: center;
+}
+ /*Ends Third section middle image*/
+ /*Begins 4th section contains Services, Product and Vision*/
  div.services {
 	width: 25%;
 	display: inline-block;
@@ -149,12 +154,12 @@ div.vision {
 	 display: inline-block;
 	 margin: 5% 2%;
 }	
-
+/*Ends Forth section Services, Product and Vision*/
+/*Begins Contact section*/
 .contact {
 	padding:2px;
 	margin: 2px;
 }
-body {
-	margin: 0 10%;
-}
+
+
 
