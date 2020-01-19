@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 /**/
 body {
-	margin: 0 8%;
+	margin: 0 5%;
 }
 /*Navigation section*/
 nav {
@@ -83,7 +83,7 @@ nav {
 }
 
 img.logo {
-	padding: 14px;
+	padding: 2.5%;
 	justify-content: space-around;
     align-items: center;
 }
@@ -95,14 +95,14 @@ img.logo {
 }
 .innovations {
 	text-align: center;
-	font-size: 65px;
+	font-size:65px;
+	
 	width: 49%;
-	padding: 35px;
 	box-sizing: border-box;
 	justify-content: space-around;
 	
 }
-
+ 
 .image2 {
 	margin: 2.5% auto;
 	justify-content: space-around;
@@ -117,16 +117,19 @@ button {
 h2 {
 	text-align: left;	
 }
-
-div.features {
-	width: 49%;
-    display: inline-block;
+.first-section {
+	display:flex;
+	flex-wrap: wrap;
 }
+div.features {
+	margin: 2.5% .5%;
+	width: 49%;
+}    
 
 div.about {
+	margin: 2.5% .5%;
 	width: 49%;
-    display: inline-block;
- }
+}
  /*End Second section*/
  /*Begins 3rd section MIDDLE IMAGE*/
  .middle-img {
@@ -137,28 +140,35 @@ div.about {
 }
  /*Ends Third section middle image*/
  /*Begins 4th section contains Services, Product and Vision*/
+#bottom-section {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
  div.services {
-	width: 25%;
-	display: inline-block;
-	margin: 5% 2%;
+	width: 30%;
+	margin: 2.5% 1%;
  }
 
  div.product {
-	width: 25%;
-	display: inline-block;
-	margin: 5% 2%;
+	width: 30%;
+	margin: 2.5% .1%;
  }
 
 div.vision {
-	 width: 25%;
-	 display: inline-block;
-	 margin: 5% 2%;
+	 width: 30%;
+	 margin: 2.5% 1%;
 }	
 /*Ends Forth section Services, Product and Vision*/
 /*Begins Contact section*/
 .contact {
 	padding:2px;
 	margin: 2px;
+}
+
+footer {
+	margin: 2.5% 0 5%;
+	text-align: center;
 }
 
 
